@@ -1,0 +1,876 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3633DE7A2B94EF2100BE13F9 /* NotificationsRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3633DE792B94EF2100BE13F9 /* NotificationsRequest.swift */; };
+		3657BC9C2B94259A00C0DF10 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657BC9B2B94259A00C0DF10 /* Home.swift */; };
+		3657BCA02B9446BD00C0DF10 /* NewsAPI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657BC9F2B9446BD00C0DF10 /* NewsAPI.swift */; };
+		3657BCA62B9496BD00C0DF10 /* PhotoPickerViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3657BCA52B9496BD00C0DF10 /* PhotoPickerViewModel.swift */; };
+		366E1BDC2BAEA71500AAC8AC /* FirebaseHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E1BDB2BAEA71500AAC8AC /* FirebaseHelper.swift */; };
+		366E1BE02BAEA80C00AAC8AC /* SleepDataView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E1BDF2BAEA80C00AAC8AC /* SleepDataView.swift */; };
+		366E1BE22BAEA83C00AAC8AC /* checking.swift in Sources */ = {isa = PBXBuildFile; fileRef = 366E1BE12BAEA83C00AAC8AC /* checking.swift */; };
+		36BC6E422BB0AE8200D6F204 /* Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36BC6E412BB0AE8200D6F204 /* Meal.swift */; };
+		36DB62892B966E7400A9F6A1 /* hospitalData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36DB62882B966E7400A9F6A1 /* hospitalData.swift */; };
+		600A3B782B85C2E8005D1394 /* userProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A3B772B85C2E8005D1394 /* userProfile.swift */; };
+		600A3B7C2B85F09C005D1394 /* userdata.swift in Sources */ = {isa = PBXBuildFile; fileRef = 600A3B7B2B85F09C005D1394 /* userdata.swift */; };
+		604956DC2B94ECF9009DB96A /* EditView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604956DB2B94ECF4009DB96A /* EditView.swift */; };
+		604E7B922B90CFA600C2C2DE /* week.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E7B912B90CFA600C2C2DE /* week.swift */; };
+		604E7B942B90E6E700C2C2DE /* SelectDrinkable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 604E7B932B90E6E700C2C2DE /* SelectDrinkable.swift */; };
+		605BC2302BBBD75300439682 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 605BC22F2BBBD75300439682 /* FirebaseAuth */; };
+		605BC2362BBBDEB300439682 /* StatusView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BC2352BBBDEB300439682 /* StatusView.swift */; };
+		605BC2382BBBDFB700439682 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 605BC2372BBBDFB700439682 /* ContentView.swift */; };
+		607837BF2B9489EB00F52464 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 607837BE2B9489EB00F52464 /* Launch Screen.storyboard */; };
+		60CE18C72B96FA6900B88FBD /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18C62B96FA6900B88FBD /* FirebaseAnalytics */; };
+		60CE18C92B96FA6900B88FBD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18C82B96FA6900B88FBD /* FirebaseAnalyticsOnDeviceConversion */; };
+		60CE18CB2B96FA6900B88FBD /* FirebaseAnalyticsSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18CA2B96FA6900B88FBD /* FirebaseAnalyticsSwift */; };
+		60CE18CD2B96FA6900B88FBD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18CC2B96FA6900B88FBD /* FirebaseAnalyticsWithoutAdIdSupport */; };
+		60CE18CF2B96FA6900B88FBD /* FirebaseAppCheck in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18CE2B96FA6900B88FBD /* FirebaseAppCheck */; };
+		60CE18D22B96FAD500B88FBD /* FirebaseStorage in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18D12B96FAD500B88FBD /* FirebaseStorage */; };
+		60CE18D42B96FADB00B88FBD /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18D32B96FADB00B88FBD /* FirebaseFirestore */; };
+		60CE18D62B96FAE100B88FBD /* FirebaseFirestoreSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 60CE18D52B96FAE100B88FBD /* FirebaseFirestoreSwift */; };
+		60CE18DA2B96FE1400B88FBD /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 60CE18D92B96FE1400B88FBD /* GoogleService-Info.plist */; };
+		60DB659D2BA6B67D00393F0C /* FirebaseFunction.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60DB659C2BA6B67D00393F0C /* FirebaseFunction.swift */; };
+		7F1AC0D02BBDB0B200741CEE /* FluidData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F1AC0CF2BBDB0B200741CEE /* FluidData.swift */; };
+		7F3477912B4D06BB00020D6C /* DialysisPlusApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477902B4D06BB00020D6C /* DialysisPlusApp.swift */; };
+		7F3477952B4D06BC00020D6C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3477942B4D06BC00020D6C /* Assets.xcassets */; };
+		7F3477982B4D06BC00020D6C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7F3477972B4D06BC00020D6C /* Preview Assets.xcassets */; };
+		7F3477A52B4D083100020D6C /* RouteView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477A42B4D083100020D6C /* RouteView.swift */; };
+		7F3477CD2B4D0F3E00020D6C /* DailyGoalsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477CC2B4D0F3E00020D6C /* DailyGoalsView.swift */; };
+		7F3477D12B4D0FE300020D6C /* DrinkLogView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477D02B4D0FE300020D6C /* DrinkLogView.swift */; };
+		7F3477D32B4D104A00020D6C /* RemainderView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477D22B4D104A00020D6C /* RemainderView.swift */; };
+		7F3477D72B4D10A100020D6C /* SleepTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477D62B4D10A100020D6C /* SleepTrackerView.swift */; };
+		7F3477D92B4D10C000020D6C /* FluidTrackerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477D82B4D10C000020D6C /* FluidTrackerView.swift */; };
+		7F3477DB2B4D10EC00020D6C /* FluidView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477DA2B4D10EC00020D6C /* FluidView.swift */; };
+		7F3477DD2B4D10FC00020D6C /* DietView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477DC2B4D10FC00020D6C /* DietView.swift */; };
+		7F3477DF2B4D111500020D6C /* AddMealView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F3477DE2B4D111500020D6C /* AddMealView.swift */; };
+		7F46A86B2BA70261000ADF0A /* SleepTrackinkUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F46A86A2BA70261000ADF0A /* SleepTrackinkUI.swift */; };
+		7F615E982B4E8B27007D35CB /* hexColor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F615E972B4E8B27007D35CB /* hexColor.swift */; };
+		7F615E9A2B4E8B91007D35CB /* WeeklyReportsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F615E992B4E8B91007D35CB /* WeeklyReportsView.swift */; };
+		7F717C512BBD6FCF00820017 /* AuthViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F717C4A2BBD6FCF00820017 /* AuthViewModel.swift */; };
+		7F717C532BBD6FCF00820017 /* InputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F717C4C2BBD6FCF00820017 /* InputView.swift */; };
+		7F717C542BBD6FCF00820017 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F717C4D2BBD6FCF00820017 /* LoginView.swift */; };
+		7F717C552BBD6FCF00820017 /* RegistrationView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F717C4E2BBD6FCF00820017 /* RegistrationView.swift */; };
+		7F717C562BBD6FCF00820017 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F717C4F2BBD6FCF00820017 /* User.swift */; };
+		7F8D9D3B2B88AE9400604474 /* TodaysDietAnalysis.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9D3A2B88AE9400604474 /* TodaysDietAnalysis.swift */; };
+		7F8D9D3D2B88AEA000604474 /* CombinedComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9D3C2B88AEA000604474 /* CombinedComponent.swift */; };
+		7F8D9D3F2B88AEA800604474 /* WeeklyReportModule.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7F8D9D3E2B88AEA800604474 /* WeeklyReportModule.swift */; };
+		7FC0E3192B59A4E400C76720 /* NutritionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3152B59A4E400C76720 /* NutritionView.swift */; };
+		7FC0E31A2B59A4E400C76720 /* WeeklyReportView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3162B59A4E400C76720 /* WeeklyReportView.swift */; };
+		7FC0E31B2B59A4E400C76720 /* Confirm Meal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3172B59A4E400C76720 /* Confirm Meal.swift */; };
+		7FC0E31C2B59A4E400C76720 /* DietTrackingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3182B59A4E400C76720 /* DietTrackingView.swift */; };
+		7FC0E3332B59A53F00C76720 /* CircularGraph.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E31E2B59A53F00C76720 /* CircularGraph.swift */; };
+		7FC0E3342B59A53F00C76720 /* str2double.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E31F2B59A53F00C76720 /* str2double.swift */; };
+		7FC0E3352B59A53F00C76720 /* DietLevelView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3202B59A53F00C76720 /* DietLevelView.swift */; };
+		7FC0E3362B59A53F00C76720 /* Bar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3212B59A53F00C76720 /* Bar.swift */; };
+		7FC0E3382B59A53F00C76720 /* SlideUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3232B59A53F00C76720 /* SlideUpView.swift */; };
+		7FC0E3392B59A53F00C76720 /* getFoodDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3242B59A53F00C76720 /* getFoodDetails.swift */; };
+		7FC0E33A2B59A53F00C76720 /* createButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3252B59A53F00C76720 /* createButton.swift */; };
+		7FC0E33B2B59A53F00C76720 /* BarChart.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3262B59A53F00C76720 /* BarChart.swift */; };
+		7FC0E33F2B59A53F00C76720 /* TestingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E32B2B59A53F00C76720 /* TestingView.swift */; };
+		7FC0E3412B59A53F00C76720 /* PieChartDiet.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E32D2B59A53F00C76720 /* PieChartDiet.swift */; };
+		7FC0E3422B59A53F00C76720 /* getColorForPercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E32E2B59A53F00C76720 /* getColorForPercentage.swift */; };
+		7FC0E3432B59A53F00C76720 /* addFood.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E32F2B59A53F00C76720 /* addFood.swift */; };
+		7FC0E3442B59A53F00C76720 /* compare.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3302B59A53F00C76720 /* compare.swift */; };
+		7FC0E3452B59A53F00C76720 /* calculatePercentage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3312B59A53F00C76720 /* calculatePercentage.swift */; };
+		7FC0E3462B59A53F00C76720 /* FoodInputView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3322B59A53F00C76720 /* FoodInputView.swift */; };
+		7FC0E34E2B59A59F00C76720 /* WeeklyIntakeModules.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3482B59A59F00C76720 /* WeeklyIntakeModules.swift */; };
+		7FC0E34F2B59A59F00C76720 /* AddMeal.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3492B59A59F00C76720 /* AddMeal.swift */; };
+		7FC0E3592B59A5D800C76720 /* dailyIntakeManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3552B59A5D700C76720 /* dailyIntakeManager.swift */; };
+		7FC0E35B2B59A5D800C76720 /* DailyIntake.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3572B59A5D700C76720 /* DailyIntake.swift */; };
+		7FC0E35C2B59A5D800C76720 /* FoodItem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FC0E3582B59A5D700C76720 /* FoodItem.swift */; };
+		7FF40EF42B85F3A70020599A /* WeeklyReport.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7FF40EF32B85F3A70020599A /* WeeklyReport.swift */; };
+		C75937BA2B8870FC00EF9C9F /* MealDataProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75937B92B8870FC00EF9C9F /* MealDataProvider.swift */; };
+		C75937BD2B88769600EF9C9F /* editMealViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C75937BC2B88769600EF9C9F /* editMealViewModel.swift */; };
+		C769EC3C2B9B293D00418AD4 /* editIngredientsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = C769EC3B2B9B293D00418AD4 /* editIngredientsList.swift */; };
+		C78230FC2BA1BBFB00377646 /* RemainderViewUpdated.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78230FB2BA1BBFB00377646 /* RemainderViewUpdated.swift */; };
+		C78B886E2B8B6E3E002BD1D8 /* addIngredientView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C78B886D2B8B6E3E002BD1D8 /* addIngredientView.swift */; };
+		C7BB8C702B8740C3005FB61D /* apiIngredients.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB8C6F2B8740C3005FB61D /* apiIngredients.swift */; };
+		C7BB8C732B874144005FB61D /* GoogleGenerativeAI in Frameworks */ = {isa = PBXBuildFile; productRef = C7BB8C722B874144005FB61D /* GoogleGenerativeAI */; };
+		C7BB8C752B874151005FB61D /* APIKey.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7BB8C742B874151005FB61D /* APIKey.swift */; };
+		C7BB8C772B874166005FB61D /* GenerativeAI-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = C7BB8C762B874166005FB61D /* GenerativeAI-Info.plist */; };
+		C7CADF472B886DA500AD987A /* DataBaseModel.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = C7CADF452B886DA500AD987A /* DataBaseModel.xcdatamodeld */; };
+		C7CADF492B886F4500AD987A /* MealData.swift in Sources */ = {isa = PBXBuildFile; fileRef = C7CADF482B886F4500AD987A /* MealData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		60801B4D2BAEE2B900D7CBAD /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		3633DE792B94EF2100BE13F9 /* NotificationsRequest.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationsRequest.swift; sourceTree = "<group>"; };
+		3657BC9B2B94259A00C0DF10 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		3657BC9F2B9446BD00C0DF10 /* NewsAPI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NewsAPI.swift; sourceTree = "<group>"; };
+		3657BCA52B9496BD00C0DF10 /* PhotoPickerViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoPickerViewModel.swift; sourceTree = "<group>"; };
+		366E1BDB2BAEA71500AAC8AC /* FirebaseHelper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseHelper.swift; sourceTree = "<group>"; };
+		366E1BDF2BAEA80C00AAC8AC /* SleepDataView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepDataView.swift; sourceTree = "<group>"; };
+		366E1BE12BAEA83C00AAC8AC /* checking.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = checking.swift; sourceTree = "<group>"; };
+		36BC6E412BB0AE8200D6F204 /* Meal.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Meal.swift; sourceTree = "<group>"; };
+		36DB62882B966E7400A9F6A1 /* hospitalData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hospitalData.swift; sourceTree = "<group>"; };
+		600A3B772B85C2E8005D1394 /* userProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userProfile.swift; sourceTree = "<group>"; };
+		600A3B7B2B85F09C005D1394 /* userdata.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = userdata.swift; sourceTree = "<group>"; };
+		604956DB2B94ECF4009DB96A /* EditView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EditView.swift; sourceTree = "<group>"; };
+		604E7B912B90CFA600C2C2DE /* week.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = week.swift; sourceTree = "<group>"; };
+		604E7B932B90E6E700C2C2DE /* SelectDrinkable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SelectDrinkable.swift; sourceTree = "<group>"; };
+		605BC2352BBBDEB300439682 /* StatusView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StatusView.swift; sourceTree = "<group>"; };
+		605BC2372BBBDFB700439682 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		607837BE2B9489EB00F52464 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
+		60801B3C2BAEE2B800D7CBAD /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		60CE18D92B96FE1400B88FBD /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		60DB659C2BA6B67D00393F0C /* FirebaseFunction.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirebaseFunction.swift; sourceTree = "<group>"; };
+		7F0EC7E32BBA466B0016776A /* DialysisPlus.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = DialysisPlus.entitlements; sourceTree = "<group>"; };
+		7F1AC0CF2BBDB0B200741CEE /* FluidData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidData.swift; sourceTree = "<group>"; };
+		7F34778D2B4D06BB00020D6C /* DialysisPlus.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DialysisPlus.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		7F3477902B4D06BB00020D6C /* DialysisPlusApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DialysisPlusApp.swift; sourceTree = "<group>"; };
+		7F3477942B4D06BC00020D6C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		7F3477972B4D06BC00020D6C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		7F3477A42B4D083100020D6C /* RouteView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RouteView.swift; sourceTree = "<group>"; };
+		7F3477CC2B4D0F3E00020D6C /* DailyGoalsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DailyGoalsView.swift; sourceTree = "<group>"; };
+		7F3477D02B4D0FE300020D6C /* DrinkLogView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DrinkLogView.swift; sourceTree = "<group>"; };
+		7F3477D22B4D104A00020D6C /* RemainderView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderView.swift; sourceTree = "<group>"; };
+		7F3477D62B4D10A100020D6C /* SleepTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackerView.swift; sourceTree = "<group>"; };
+		7F3477D82B4D10C000020D6C /* FluidTrackerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidTrackerView.swift; sourceTree = "<group>"; };
+		7F3477DA2B4D10EC00020D6C /* FluidView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FluidView.swift; sourceTree = "<group>"; };
+		7F3477DC2B4D10FC00020D6C /* DietView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DietView.swift; sourceTree = "<group>"; };
+		7F3477DE2B4D111500020D6C /* AddMealView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddMealView.swift; sourceTree = "<group>"; };
+		7F46A86A2BA70261000ADF0A /* SleepTrackinkUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SleepTrackinkUI.swift; sourceTree = "<group>"; };
+		7F615E972B4E8B27007D35CB /* hexColor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = hexColor.swift; sourceTree = "<group>"; };
+		7F615E992B4E8B91007D35CB /* WeeklyReportsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WeeklyReportsView.swift; sourceTree = "<group>"; };
+		7F717C4A2BBD6FCF00820017 /* AuthViewModel.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AuthViewModel.swift; sourceTree = "<group>"; };
+		7F717C4C2BBD6FCF00820017 /* InputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = InputView.swift; sourceTree = "<group>"; };
+		7F717C4D2BBD6FCF00820017 /* LoginView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+		7F717C4E2BBD6FCF00820017 /* RegistrationView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RegistrationView.swift; sourceTree = "<group>"; };
+		7F717C4F2BBD6FCF00820017 /* User.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		7F8D9D3A2B88AE9400604474 /* TodaysDietAnalysis.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TodaysDietAnalysis.swift; sourceTree = "<group>"; };
+		7F8D9D3C2B88AEA000604474 /* CombinedComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CombinedComponent.swift; sourceTree = "<group>"; };
+		7F8D9D3E2B88AEA800604474 /* WeeklyReportModule.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyReportModule.swift; sourceTree = "<group>"; };
+		7FC0E3152B59A4E400C76720 /* NutritionView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = NutritionView.swift; sourceTree = "<group>"; };
+		7FC0E3162B59A4E400C76720 /* WeeklyReportView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyReportView.swift; sourceTree = "<group>"; };
+		7FC0E3172B59A4E400C76720 /* Confirm Meal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "Confirm Meal.swift"; sourceTree = "<group>"; };
+		7FC0E3182B59A4E400C76720 /* DietTrackingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietTrackingView.swift; sourceTree = "<group>"; };
+		7FC0E31E2B59A53F00C76720 /* CircularGraph.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CircularGraph.swift; sourceTree = "<group>"; };
+		7FC0E31F2B59A53F00C76720 /* str2double.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = str2double.swift; sourceTree = "<group>"; };
+		7FC0E3202B59A53F00C76720 /* DietLevelView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DietLevelView.swift; sourceTree = "<group>"; };
+		7FC0E3212B59A53F00C76720 /* Bar.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Bar.swift; sourceTree = "<group>"; };
+		7FC0E3232B59A53F00C76720 /* SlideUpView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SlideUpView.swift; sourceTree = "<group>"; };
+		7FC0E3242B59A53F00C76720 /* getFoodDetails.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getFoodDetails.swift; sourceTree = "<group>"; };
+		7FC0E3252B59A53F00C76720 /* createButton.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = createButton.swift; sourceTree = "<group>"; };
+		7FC0E3262B59A53F00C76720 /* BarChart.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BarChart.swift; sourceTree = "<group>"; };
+		7FC0E32B2B59A53F00C76720 /* TestingView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = TestingView.swift; path = ../Functions/View/TestingView.swift; sourceTree = "<group>"; };
+		7FC0E32D2B59A53F00C76720 /* PieChartDiet.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = PieChartDiet.swift; path = ../Functions/View/PieChartDiet.swift; sourceTree = "<group>"; };
+		7FC0E32E2B59A53F00C76720 /* getColorForPercentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = getColorForPercentage.swift; sourceTree = "<group>"; };
+		7FC0E32F2B59A53F00C76720 /* addFood.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = addFood.swift; sourceTree = "<group>"; };
+		7FC0E3302B59A53F00C76720 /* compare.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = compare.swift; sourceTree = "<group>"; };
+		7FC0E3312B59A53F00C76720 /* calculatePercentage.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = calculatePercentage.swift; sourceTree = "<group>"; };
+		7FC0E3322B59A53F00C76720 /* FoodInputView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodInputView.swift; sourceTree = "<group>"; };
+		7FC0E3482B59A59F00C76720 /* WeeklyIntakeModules.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyIntakeModules.swift; sourceTree = "<group>"; };
+		7FC0E3492B59A59F00C76720 /* AddMeal.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AddMeal.swift; sourceTree = "<group>"; };
+		7FC0E3552B59A5D700C76720 /* dailyIntakeManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = dailyIntakeManager.swift; sourceTree = "<group>"; };
+		7FC0E3572B59A5D700C76720 /* DailyIntake.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DailyIntake.swift; sourceTree = "<group>"; };
+		7FC0E3582B59A5D700C76720 /* FoodItem.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FoodItem.swift; sourceTree = "<group>"; };
+		7FF40EF32B85F3A70020599A /* WeeklyReport.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WeeklyReport.swift; sourceTree = "<group>"; };
+		C736B6E62BA171C300B5A4E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C75937B92B8870FC00EF9C9F /* MealDataProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealDataProvider.swift; sourceTree = "<group>"; };
+		C75937BC2B88769600EF9C9F /* editMealViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editMealViewModel.swift; sourceTree = "<group>"; };
+		C769EC3B2B9B293D00418AD4 /* editIngredientsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = editIngredientsList.swift; sourceTree = "<group>"; };
+		C78230FB2BA1BBFB00377646 /* RemainderViewUpdated.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RemainderViewUpdated.swift; sourceTree = "<group>"; };
+		C78B886D2B8B6E3E002BD1D8 /* addIngredientView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = addIngredientView.swift; sourceTree = "<group>"; };
+		C7BB8C6F2B8740C3005FB61D /* apiIngredients.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = apiIngredients.swift; sourceTree = "<group>"; };
+		C7BB8C742B874151005FB61D /* APIKey.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = APIKey.swift; sourceTree = "<group>"; };
+		C7BB8C762B874166005FB61D /* GenerativeAI-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GenerativeAI-Info.plist"; sourceTree = "<group>"; };
+		C7CADF462B886DA500AD987A /* DataBaseModel.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DataBaseModel.xcdatamodel; sourceTree = "<group>"; };
+		C7CADF482B886F4500AD987A /* MealData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MealData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7F34778A2B4D06BB00020D6C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				60CE18CB2B96FA6900B88FBD /* FirebaseAnalyticsSwift in Frameworks */,
+				605BC2302BBBD75300439682 /* FirebaseAuth in Frameworks */,
+				60CE18CD2B96FA6900B88FBD /* FirebaseAnalyticsWithoutAdIdSupport in Frameworks */,
+				60CE18C72B96FA6900B88FBD /* FirebaseAnalytics in Frameworks */,
+				60CE18C92B96FA6900B88FBD /* FirebaseAnalyticsOnDeviceConversion in Frameworks */,
+				60CE18D22B96FAD500B88FBD /* FirebaseStorage in Frameworks */,
+				60CE18D42B96FADB00B88FBD /* FirebaseFirestore in Frameworks */,
+				60CE18CF2B96FA6900B88FBD /* FirebaseAppCheck in Frameworks */,
+				C7BB8C732B874144005FB61D /* GoogleGenerativeAI in Frameworks */,
+				60CE18D62B96FAE100B88FBD /* FirebaseFirestoreSwift in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		60CE18D02B96FAD500B88FBD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				60801B3C2BAEE2B800D7CBAD /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F3477842B4D06BB00020D6C = {
+			isa = PBXGroup;
+			children = (
+				605BC2372BBBDFB700439682 /* ContentView.swift */,
+				7F34778F2B4D06BB00020D6C /* DialysisPlus */,
+				7F34778E2B4D06BB00020D6C /* Products */,
+				60CE18D02B96FAD500B88FBD /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		7F34778E2B4D06BB00020D6C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7F34778D2B4D06BB00020D6C /* DialysisPlus.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7F34778F2B4D06BB00020D6C /* DialysisPlus */ = {
+			isa = PBXGroup;
+			children = (
+				7F0EC7E32BBA466B0016776A /* DialysisPlus.entitlements */,
+				C736B6E62BA171C300B5A4E3 /* Info.plist */,
+				60CE18D92B96FE1400B88FBD /* GoogleService-Info.plist */,
+				3657BC9B2B94259A00C0DF10 /* Home.swift */,
+				36DB62882B966E7400A9F6A1 /* hospitalData.swift */,
+				3657BC9F2B9446BD00C0DF10 /* NewsAPI.swift */,
+				7F717C502BBD6FCF00820017 /* New Group */,
+				C75937BB2B88762600EF9C9F /* Create */,
+				7F3477902B4D06BB00020D6C /* DialysisPlusApp.swift */,
+				366E1BE12BAEA83C00AAC8AC /* checking.swift */,
+				366E1BDB2BAEA71500AAC8AC /* FirebaseHelper.swift */,
+				607837BE2B9489EB00F52464 /* Launch Screen.storyboard */,
+				C7CADF4A2B886F7B00AD987A /* Model */,
+				C75937B82B8870E100EF9C9F /* Provider */,
+				C7CADF452B886DA500AD987A /* DataBaseModel.xcdatamodeld */,
+				7F615E992B4E8B91007D35CB /* WeeklyReportsView.swift */,
+				7F615E972B4E8B27007D35CB /* hexColor.swift */,
+				7FC0E3542B59A5D700C76720 /* Data Models */,
+				7FC0E3472B59A59F00C76720 /* View */,
+				7FC0E31D2B59A53F00C76720 /* Functions */,
+				7FC0E3142B59A4E400C76720 /* View Models */,
+				7F3477942B4D06BC00020D6C /* Assets.xcassets */,
+				C7BB8C742B874151005FB61D /* APIKey.swift */,
+				7F8D9D3E2B88AEA800604474 /* WeeklyReportModule.swift */,
+				7F8D9D3C2B88AEA000604474 /* CombinedComponent.swift */,
+				C7BB8C762B874166005FB61D /* GenerativeAI-Info.plist */,
+				7F8D9D3A2B88AE9400604474 /* TodaysDietAnalysis.swift */,
+				7F3477962B4D06BC00020D6C /* Preview Content */,
+				366E1BDF2BAEA80C00AAC8AC /* SleepDataView.swift */,
+			);
+			path = DialysisPlus;
+			sourceTree = "<group>";
+		};
+		7F3477962B4D06BC00020D6C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				7F3477972B4D06BC00020D6C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		7F717C502BBD6FCF00820017 /* New Group */ = {
+			isa = PBXGroup;
+			children = (
+				7F717C4C2BBD6FCF00820017 /* InputView.swift */,
+				7F717C4D2BBD6FCF00820017 /* LoginView.swift */,
+				7F717C4E2BBD6FCF00820017 /* RegistrationView.swift */,
+				7F717C4F2BBD6FCF00820017 /* User.swift */,
+				7F717C4A2BBD6FCF00820017 /* AuthViewModel.swift */,
+				7F1AC0CF2BBDB0B200741CEE /* FluidData.swift */,
+			);
+			path = "New Group";
+			sourceTree = "<group>";
+		};
+		7FC0E3142B59A4E400C76720 /* View Models */ = {
+			isa = PBXGroup;
+			children = (
+				7F3477DE2B4D111500020D6C /* AddMealView.swift */,
+				7F3477DA2B4D10EC00020D6C /* FluidView.swift */,
+				7F3477DC2B4D10FC00020D6C /* DietView.swift */,
+				7FC0E3152B59A4E400C76720 /* NutritionView.swift */,
+				7FC0E3162B59A4E400C76720 /* WeeklyReportView.swift */,
+				7FC0E3172B59A4E400C76720 /* Confirm Meal.swift */,
+				7FC0E3182B59A4E400C76720 /* DietTrackingView.swift */,
+				C78230FB2BA1BBFB00377646 /* RemainderViewUpdated.swift */,
+				7F46A86A2BA70261000ADF0A /* SleepTrackinkUI.swift */,
+			);
+			path = "View Models";
+			sourceTree = "<group>";
+		};
+		7FC0E31D2B59A53F00C76720 /* Functions */ = {
+			isa = PBXGroup;
+			children = (
+				7FC0E31E2B59A53F00C76720 /* CircularGraph.swift */,
+				7FC0E31F2B59A53F00C76720 /* str2double.swift */,
+				7FC0E3202B59A53F00C76720 /* DietLevelView.swift */,
+				7FC0E3212B59A53F00C76720 /* Bar.swift */,
+				7FC0E3232B59A53F00C76720 /* SlideUpView.swift */,
+				7FC0E3242B59A53F00C76720 /* getFoodDetails.swift */,
+				7FC0E3252B59A53F00C76720 /* createButton.swift */,
+				7FC0E3262B59A53F00C76720 /* BarChart.swift */,
+				7FC0E32E2B59A53F00C76720 /* getColorForPercentage.swift */,
+				7FC0E32F2B59A53F00C76720 /* addFood.swift */,
+				60DB659C2BA6B67D00393F0C /* FirebaseFunction.swift */,
+				7FC0E3302B59A53F00C76720 /* compare.swift */,
+				7FC0E3312B59A53F00C76720 /* calculatePercentage.swift */,
+				7FC0E3322B59A53F00C76720 /* FoodInputView.swift */,
+				3633DE792B94EF2100BE13F9 /* NotificationsRequest.swift */,
+			);
+			path = Functions;
+			sourceTree = "<group>";
+		};
+		7FC0E3472B59A59F00C76720 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				604956DB2B94ECF4009DB96A /* EditView.swift */,
+				605BC2352BBBDEB300439682 /* StatusView.swift */,
+				600A3B772B85C2E8005D1394 /* userProfile.swift */,
+				7F3477A42B4D083100020D6C /* RouteView.swift */,
+				7FF40EF32B85F3A70020599A /* WeeklyReport.swift */,
+				7F3477CC2B4D0F3E00020D6C /* DailyGoalsView.swift */,
+				7F3477D22B4D104A00020D6C /* RemainderView.swift */,
+				36BC6E412BB0AE8200D6F204 /* Meal.swift */,
+				7F3477D62B4D10A100020D6C /* SleepTrackerView.swift */,
+				604E7B932B90E6E700C2C2DE /* SelectDrinkable.swift */,
+				7F3477D82B4D10C000020D6C /* FluidTrackerView.swift */,
+				7F3477D02B4D0FE300020D6C /* DrinkLogView.swift */,
+				7FC0E3482B59A59F00C76720 /* WeeklyIntakeModules.swift */,
+				7FC0E3492B59A59F00C76720 /* AddMeal.swift */,
+				7FC0E32D2B59A53F00C76720 /* PieChartDiet.swift */,
+				7FC0E32B2B59A53F00C76720 /* TestingView.swift */,
+				604E7B912B90CFA600C2C2DE /* week.swift */,
+				C78B886D2B8B6E3E002BD1D8 /* addIngredientView.swift */,
+				C769EC3B2B9B293D00418AD4 /* editIngredientsList.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		7FC0E3542B59A5D700C76720 /* Data Models */ = {
+			isa = PBXGroup;
+			children = (
+				600A3B7B2B85F09C005D1394 /* userdata.swift */,
+				7FC0E3552B59A5D700C76720 /* dailyIntakeManager.swift */,
+				7FC0E3572B59A5D700C76720 /* DailyIntake.swift */,
+				C7BB8C6F2B8740C3005FB61D /* apiIngredients.swift */,
+				7FC0E3582B59A5D700C76720 /* FoodItem.swift */,
+			);
+			path = "Data Models";
+			sourceTree = "<group>";
+		};
+		C75937B82B8870E100EF9C9F /* Provider */ = {
+			isa = PBXGroup;
+			children = (
+				C75937B92B8870FC00EF9C9F /* MealDataProvider.swift */,
+			);
+			path = Provider;
+			sourceTree = "<group>";
+		};
+		C75937BB2B88762600EF9C9F /* Create */ = {
+			isa = PBXGroup;
+			children = (
+				C75937BC2B88769600EF9C9F /* editMealViewModel.swift */,
+			);
+			path = Create;
+			sourceTree = "<group>";
+		};
+		C7CADF4A2B886F7B00AD987A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				3657BCA52B9496BD00C0DF10 /* PhotoPickerViewModel.swift */,
+				C7CADF482B886F4500AD987A /* MealData.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7F34778C2B4D06BB00020D6C /* DialysisPlus */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7F34779B2B4D06BC00020D6C /* Build configuration list for PBXNativeTarget "DialysisPlus" */;
+			buildPhases = (
+				7F3477892B4D06BB00020D6C /* Sources */,
+				7F34778A2B4D06BB00020D6C /* Frameworks */,
+				7F34778B2B4D06BB00020D6C /* Resources */,
+				60801B4D2BAEE2B900D7CBAD /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DialysisPlus;
+			packageProductDependencies = (
+				C7BB8C722B874144005FB61D /* GoogleGenerativeAI */,
+				60CE18C62B96FA6900B88FBD /* FirebaseAnalytics */,
+				60CE18C82B96FA6900B88FBD /* FirebaseAnalyticsOnDeviceConversion */,
+				60CE18CA2B96FA6900B88FBD /* FirebaseAnalyticsSwift */,
+				60CE18CC2B96FA6900B88FBD /* FirebaseAnalyticsWithoutAdIdSupport */,
+				60CE18CE2B96FA6900B88FBD /* FirebaseAppCheck */,
+				60CE18D12B96FAD500B88FBD /* FirebaseStorage */,
+				60CE18D32B96FADB00B88FBD /* FirebaseFirestore */,
+				60CE18D52B96FAE100B88FBD /* FirebaseFirestoreSwift */,
+				605BC22F2BBBD75300439682 /* FirebaseAuth */,
+			);
+			productName = DialysisPlus;
+			productReference = 7F34778D2B4D06BB00020D6C /* DialysisPlus.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7F3477852B4D06BB00020D6C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1530;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					7F34778C2B4D06BB00020D6C = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = 7F3477882B4D06BB00020D6C /* Build configuration list for PBXProject "DialysisPlus" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 7F3477842B4D06BB00020D6C;
+			packageReferences = (
+				C7BB8C712B874144005FB61D /* XCRemoteSwiftPackageReference "generative-ai-swift" */,
+				60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
+			productRefGroup = 7F34778E2B4D06BB00020D6C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7F34778C2B4D06BB00020D6C /* DialysisPlus */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		7F34778B2B4D06BB00020D6C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7F3477982B4D06BC00020D6C /* Preview Assets.xcassets in Resources */,
+				7F3477952B4D06BC00020D6C /* Assets.xcassets in Resources */,
+				60CE18DA2B96FE1400B88FBD /* GoogleService-Info.plist in Resources */,
+				607837BF2B9489EB00F52464 /* Launch Screen.storyboard in Resources */,
+				C7BB8C772B874166005FB61D /* GenerativeAI-Info.plist in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7F3477892B4D06BB00020D6C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7FC0E35C2B59A5D800C76720 /* FoodItem.swift in Sources */,
+				600A3B7C2B85F09C005D1394 /* userdata.swift in Sources */,
+				604956DC2B94ECF9009DB96A /* EditView.swift in Sources */,
+				7F717C552BBD6FCF00820017 /* RegistrationView.swift in Sources */,
+				7F615E982B4E8B27007D35CB /* hexColor.swift in Sources */,
+				7FC0E3592B59A5D800C76720 /* dailyIntakeManager.swift in Sources */,
+				7FC0E3462B59A53F00C76720 /* FoodInputView.swift in Sources */,
+				605BC2362BBBDEB300439682 /* StatusView.swift in Sources */,
+				C7CADF492B886F4500AD987A /* MealData.swift in Sources */,
+				7F717C542BBD6FCF00820017 /* LoginView.swift in Sources */,
+				C75937BD2B88769600EF9C9F /* editMealViewModel.swift in Sources */,
+				7FC0E33A2B59A53F00C76720 /* createButton.swift in Sources */,
+				7FC0E3412B59A53F00C76720 /* PieChartDiet.swift in Sources */,
+				7FC0E31B2B59A4E400C76720 /* Confirm Meal.swift in Sources */,
+				3657BC9C2B94259A00C0DF10 /* Home.swift in Sources */,
+				7F46A86B2BA70261000ADF0A /* SleepTrackinkUI.swift in Sources */,
+				604E7B922B90CFA600C2C2DE /* week.swift in Sources */,
+				7FC0E35B2B59A5D800C76720 /* DailyIntake.swift in Sources */,
+				C7BB8C702B8740C3005FB61D /* apiIngredients.swift in Sources */,
+				7F3477D92B4D10C000020D6C /* FluidTrackerView.swift in Sources */,
+				7FC0E31A2B59A4E400C76720 /* WeeklyReportView.swift in Sources */,
+				36DB62892B966E7400A9F6A1 /* hospitalData.swift in Sources */,
+				7FC0E3352B59A53F00C76720 /* DietLevelView.swift in Sources */,
+				7FC0E33F2B59A53F00C76720 /* TestingView.swift in Sources */,
+				7F3477D32B4D104A00020D6C /* RemainderView.swift in Sources */,
+				7F3477912B4D06BB00020D6C /* DialysisPlusApp.swift in Sources */,
+				60DB659D2BA6B67D00393F0C /* FirebaseFunction.swift in Sources */,
+				7F615E9A2B4E8B91007D35CB /* WeeklyReportsView.swift in Sources */,
+				3633DE7A2B94EF2100BE13F9 /* NotificationsRequest.swift in Sources */,
+				7FC0E3382B59A53F00C76720 /* SlideUpView.swift in Sources */,
+				7F8D9D3B2B88AE9400604474 /* TodaysDietAnalysis.swift in Sources */,
+				7FC0E3392B59A53F00C76720 /* getFoodDetails.swift in Sources */,
+				7FC0E3442B59A53F00C76720 /* compare.swift in Sources */,
+				366E1BE02BAEA80C00AAC8AC /* SleepDataView.swift in Sources */,
+				7F717C512BBD6FCF00820017 /* AuthViewModel.swift in Sources */,
+				36BC6E422BB0AE8200D6F204 /* Meal.swift in Sources */,
+				C769EC3C2B9B293D00418AD4 /* editIngredientsList.swift in Sources */,
+				7F717C562BBD6FCF00820017 /* User.swift in Sources */,
+				C7CADF472B886DA500AD987A /* DataBaseModel.xcdatamodeld in Sources */,
+				7F8D9D3D2B88AEA000604474 /* CombinedComponent.swift in Sources */,
+				7F3477D72B4D10A100020D6C /* SleepTrackerView.swift in Sources */,
+				366E1BDC2BAEA71500AAC8AC /* FirebaseHelper.swift in Sources */,
+				7FC0E33B2B59A53F00C76720 /* BarChart.swift in Sources */,
+				7FC0E3422B59A53F00C76720 /* getColorForPercentage.swift in Sources */,
+				7F3477DB2B4D10EC00020D6C /* FluidView.swift in Sources */,
+				7F8D9D3F2B88AEA800604474 /* WeeklyReportModule.swift in Sources */,
+				605BC2382BBBDFB700439682 /* ContentView.swift in Sources */,
+				604E7B942B90E6E700C2C2DE /* SelectDrinkable.swift in Sources */,
+				7FC0E34F2B59A59F00C76720 /* AddMeal.swift in Sources */,
+				7FC0E3342B59A53F00C76720 /* str2double.swift in Sources */,
+				7FC0E31C2B59A4E400C76720 /* DietTrackingView.swift in Sources */,
+				3657BCA62B9496BD00C0DF10 /* PhotoPickerViewModel.swift in Sources */,
+				7F3477CD2B4D0F3E00020D6C /* DailyGoalsView.swift in Sources */,
+				7F3477A52B4D083100020D6C /* RouteView.swift in Sources */,
+				7FC0E3432B59A53F00C76720 /* addFood.swift in Sources */,
+				7FC0E3332B59A53F00C76720 /* CircularGraph.swift in Sources */,
+				366E1BE22BAEA83C00AAC8AC /* checking.swift in Sources */,
+				3657BCA02B9446BD00C0DF10 /* NewsAPI.swift in Sources */,
+				7F1AC0D02BBDB0B200741CEE /* FluidData.swift in Sources */,
+				C75937BA2B8870FC00EF9C9F /* MealDataProvider.swift in Sources */,
+				7FC0E3362B59A53F00C76720 /* Bar.swift in Sources */,
+				7FC0E3452B59A53F00C76720 /* calculatePercentage.swift in Sources */,
+				7F3477DD2B4D10FC00020D6C /* DietView.swift in Sources */,
+				C78230FC2BA1BBFB00377646 /* RemainderViewUpdated.swift in Sources */,
+				7FC0E34E2B59A59F00C76720 /* WeeklyIntakeModules.swift in Sources */,
+				7F3477DF2B4D111500020D6C /* AddMealView.swift in Sources */,
+				7F717C532BBD6FCF00820017 /* InputView.swift in Sources */,
+				C78B886E2B8B6E3E002BD1D8 /* addIngredientView.swift in Sources */,
+				7FF40EF42B85F3A70020599A /* WeeklyReport.swift in Sources */,
+				C7BB8C752B874151005FB61D /* APIKey.swift in Sources */,
+				7F3477D12B4D0FE300020D6C /* DrinkLogView.swift in Sources */,
+				600A3B782B85C2E8005D1394 /* userProfile.swift in Sources */,
+				7FC0E3192B59A4E400C76720 /* NutritionView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7F3477992B4D06BC00020D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		7F34779A2B4D06BC00020D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7F34779C2B4D06BC00020D6C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DialysisPlus/DialysisPlus.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialysisPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DialysisPlus/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photo";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Our app uses your clinical health records to provide personalized medical advice and health monitoring.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We use HealthKit to track your sleep and provide insights to help you improve it.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to access your sleep data to provide personalized sleep analysis and recommendations.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yourcompany.com.DialysisPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		7F34779D2B4D06BC00020D6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = DialysisPlus/DialysisPlus.entitlements;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Manual;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"DialysisPlus/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = DialysisPlus/Info.plist;
+				INFOPLIST_KEY_NSCameraUsageDescription = "take photo";
+				INFOPLIST_KEY_NSHealthClinicalHealthRecordsShareUsageDescription = "Our app uses your clinical health records to provide personalized medical advice and health monitoring.";
+				INFOPLIST_KEY_NSHealthShareUsageDescription = "We use HealthKit to track your sleep and provide insights to help you improve it.";
+				INFOPLIST_KEY_NSHealthUpdateUsageDescription = "We need to access your sleep data to provide personalized sleep analysis and recommendations.";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = yourcompany.com.DialysisPlus;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7F3477882B4D06BB00020D6C /* Build configuration list for PBXProject "DialysisPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F3477992B4D06BC00020D6C /* Debug */,
+				7F34779A2B4D06BC00020D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7F34779B2B4D06BC00020D6C /* Build configuration list for PBXNativeTarget "DialysisPlus" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7F34779C2B4D06BC00020D6C /* Debug */,
+				7F34779D2B4D06BC00020D6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.22.0;
+			};
+		};
+		C7BB8C712B874144005FB61D /* XCRemoteSwiftPackageReference "generative-ai-swift" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/google/generative-ai-swift";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 0.4.8;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		605BC22F2BBBD75300439682 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		60CE18C62B96FA6900B88FBD /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		60CE18C82B96FA6900B88FBD /* FirebaseAnalyticsOnDeviceConversion */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsOnDeviceConversion;
+		};
+		60CE18CA2B96FA6900B88FBD /* FirebaseAnalyticsSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsSwift;
+		};
+		60CE18CC2B96FA6900B88FBD /* FirebaseAnalyticsWithoutAdIdSupport */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalyticsWithoutAdIdSupport;
+		};
+		60CE18CE2B96FA6900B88FBD /* FirebaseAppCheck */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAppCheck;
+		};
+		60CE18D12B96FAD500B88FBD /* FirebaseStorage */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseStorage;
+		};
+		60CE18D32B96FADB00B88FBD /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+		60CE18D52B96FAE100B88FBD /* FirebaseFirestoreSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 60CE18C52B96FA6900B88FBD /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestoreSwift;
+		};
+		C7BB8C722B874144005FB61D /* GoogleGenerativeAI */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = C7BB8C712B874144005FB61D /* XCRemoteSwiftPackageReference "generative-ai-swift" */;
+			productName = GoogleGenerativeAI;
+		};
+/* End XCSwiftPackageProductDependency section */
+
+/* Begin XCVersionGroup section */
+		C7CADF452B886DA500AD987A /* DataBaseModel.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				C7CADF462B886DA500AD987A /* DataBaseModel.xcdatamodel */,
+			);
+			currentVersion = C7CADF462B886DA500AD987A /* DataBaseModel.xcdatamodel */;
+			path = DataBaseModel.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 7F3477852B4D06BB00020D6C /* Project object */;
+}
